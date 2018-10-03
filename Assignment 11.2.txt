@@ -1,0 +1,30 @@
+Assignment 11.2
+
+Problem Statement 
+1. Use the given link below and locate the bank marketing dataset. Data Set Link 
+Perform the below operations: 
+Is there any association between Job and default? 
+> cor.test(bank$job, bank$default, method = "pearson") 
+ 
+Pearson's product-moment correlation 
+ 
+data:  bank$job and bank$default 
+t = -5.741, df = 41186, p-value = 9.479e-09 
+alternative hypothesis: true correlation is not equal to 0 
+95 percent confidence interval: 
+ -0.03792440 -0.01862483 
+sample estimates: 
+        cor  
+-0.02827725  
+ 
+b. Is there any significant difference in duration of last call between people having housing loan or not? 
+Ans: topic not discussed in class. 
+c. Is there any association between consumer price index and consumer? 
+Ans: cannot find the association between consumer price index and consumer because there is no column by name consumer. 
+d. Is the employment variation rate consistent across job types?  
+Ans: Yes. it is constant, value is 1.1 
+e. Is the employment variation rate same across education? 
+Ans: Yes. it is constant, value is 1.1 
+ f. Which group is more confident? 
+Ans: topic not discussed in class. 
+ 
